@@ -3,7 +3,7 @@ A repository for testing different technologies related to information retrieval
 
 # Instructions
 
-To run the project, you need to have installed the following steps:
+To run the project, you need to have run the following steps:
 
 ```
 docker-compose build
