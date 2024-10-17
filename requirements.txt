@@ -1,6 +1,12 @@
+fastapi
+pydantic
+# sqlalchemy
+uvicorn
+sqlmodel 
+psycopg2-binary
 qdrant-client==1.12.0
 numpy==2.1.2
 pytest==7.3.1
 json==2.0.9
-langchain_huggingface==0.1.0
 huggingface-hub==0.25.2
+langchain_huggingface==0.1.0
