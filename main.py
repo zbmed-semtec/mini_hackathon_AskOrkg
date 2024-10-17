@@ -31,6 +31,9 @@ def main():
             document = row["title"] + ". " + row["abstract"]
             row["embedding"] = textEmbeddingsInterference.compute_embedding(document)
             embeddings.append(row["embedding"])
+        
+        # Fixed dimension for msmarco-MiniLM-L-12-v3
+        embedding_dim = 384
 
         # Store the embeddings in Qdrant
         vector_store.store_embeddings("example_collection", embeddings, metadata)
