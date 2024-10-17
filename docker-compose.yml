@@ -60,6 +60,25 @@ services:
       - "11434:11434"
     volumes:
       - ollama-local:/root/.ollama
+    
+  tei:
+    image: ghcr.io/huggingface/text-embeddings-inference:89-1.2
+    ports:
+      - '8080:80'
+    container_name: tei_container
+    restart: on-failure
+    command:
+      - "--model-id"
+      - "sentence-transformers/paraphrase-MiniLM-L6-v2"
+    volumes:
+      - /data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
 
 volumes:
   qdrant_storage:
