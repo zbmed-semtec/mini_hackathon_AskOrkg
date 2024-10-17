@@ -2,6 +2,7 @@ from fastapi import FastAPI, HTTPException
 from sqlmodel import Field, Session, create_engine
 from sqlmodel import Field, Session, SQLModel, create_engine, select
 from sqlmodel.ext.asyncio.session import AsyncSession
+import json
 
 app = FastAPI()
 
@@ -71,3 +72,21 @@ async def delete_book(pmid: int):
         await session.delete(existing_book)
         await session.commit()
     return {"message": "Book deleted successfully"}
+
+@app.put("/books/load_from_file/{json_file}")
+async def load_books_from_file(json_file: str = "./../data/data.json"):
+    await load_books_from_json(json_file)
+    return {"message": "Books loaded successfully"}
+
+
+async def load_books_from_json(json_file):
+    with open(json_file) as f:
+        data = json.load(f)
+
+    books = [Book(**book_data) for book_data in data]
+
+    async with async_session() as session:
+        await session.bulk_write(books)
+        await session.commit()
+
+    print("Books loaded successfully!")

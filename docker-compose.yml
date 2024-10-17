@@ -22,15 +22,11 @@ services:
       - QDRANT_PORT=6333
     depends_on:
       - qdrant
-    command: ["python", "main.py"]
-
-volumes:
-  qdrant_storage:
+      - postgres
+    command: ["tail", "-f", "/dev/null"]
     # command: "uvicorn backend:app --reload --host 0.0.0.0 --port 8000"
     ports:
       - '8000:8000'
-    depends_on:
-      - postgres
 
   postgres:
     image: postgres:14.1-alpine
@@ -44,6 +40,8 @@ volumes:
     volumes:
       - /data/postgresql_data:/var/lib/postgresql/data
 
+volumes:
+  qdrant_storage:
 
 
 
