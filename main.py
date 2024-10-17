@@ -1,5 +1,7 @@
 import numpy as np
+import json
 from components.VectorDatabase.QdrantVectorStore import QdrantVectorStore
+from components.EmbeddingCreation.tei import textEmbeddingsInterference
 
 def main():
     # Initialize the QdrantVectorStore
@@ -19,16 +21,19 @@ def main():
 
     # Example usage
     try:
-        vector_store.create_collection("example_collection", vector_size=384)
+        vector_store.create_collection("example_collection")
 
-        # Generate dummy embeddings and metadata
-        num_embeddings = 100
-        embedding_dim = 384
-        dummy_embeddings = np.random.rand(num_embeddings, embedding_dim)
-        dummy_metadata = [{"id": i, "text": f"Sample text {i}"} for i in range(num_embeddings)]
+        # Generate embeddings and metadata
+        embeddings = []
+        with open('data/data.json', 'r') as file:
+            metadata = json.load(file)
+        for row in metadata:
+            document = row["title"] + ". " + row["abstract"]
+            row["embedding"] = textEmbeddingsInterference.compute_embedding(document)
+            embeddings.append(row["embedding"])
 
         # Store the embeddings in Qdrant
-        vector_store.store_embeddings("example_collection", dummy_embeddings, dummy_metadata)
+        vector_store.store_embeddings("example_collection", embeddings, metadata)
 
         # Perform a search
         query_vector = np.random.rand(embedding_dim)
