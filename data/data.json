@@ -1,0 +1,317 @@
+[
+    {
+        "pmid": 34210001,
+        "language": "eng",
+        "title": "Study on Metabolic Pathways in Diabetes - Sample 1",
+        "abstract": "Research has examined the unique metabolic pathways that impact Type 2 diabetes. Findings from this study suggest novel connections between cellular metabolism and insulin sensitivity, highlighting the potential for new therapeutic targets."
+    },
+    {
+        "pmid": 34210002,
+        "language": "eng",
+        "title": "Examining Adipokine Interactions in Diabetes",
+        "abstract": "This research focuses on adipokine interactions that exacerbate insulin resistance in Type 2 diabetes. It underscores how inflammation contributes to disease progression, offering insights for future treatment strategies."
+    },
+    {
+        "pmid": 34220001,
+        "language": "eng",
+        "title": "Investigation into Alzheimer’s Biomarkers - Study 1",
+        "abstract": "This study explores the role of beta-amyloid and tau as biomarkers for early Alzheimer’s detection, highlighting the importance of early diagnosis for managing cognitive decline."
+    },
+    {
+        "pmid": 34220002,
+        "language": "eng",
+        "title": "Linking Inflammation to Alzheimer’s Progression",
+        "abstract": "Exploring inflammation’s role in Alzheimer’s, this study examines how chronic inflammation affects cognitive decline and suggests potential anti-inflammatory treatments to slow disease progression."
+    },
+    {
+        "pmid": 34230001,
+        "language": "eng",
+        "title": "New Developments in Lung Cancer Treatment - Research 1",
+        "abstract": "This research highlights recent advancements in lung cancer treatments, with a focus on immunotherapy and its potential to reduce tumor growth and improve survival rates."
+    },
+    {
+        "pmid": 34230002,
+        "language": "eng",
+        "title": "Evaluating Targeted Therapies in Lung Cancer",
+        "abstract": "The study evaluates targeted therapies that focus on specific genetic mutations in lung cancer patients, showing promise in personalizing treatments and enhancing efficacy."
+    },
+    {
+        "pmid": 34210003,
+        "language": "eng",
+        "title": "Impact of Gut Microbiome on Diabetes",
+        "abstract": "This study investigates the influence of the gut microbiome on Type 2 diabetes progression, suggesting that microbial imbalances may play a role in insulin resistance."
+    },
+    {
+        "pmid": 34220003,
+        "language": "eng",
+        "title": "Tau Protein as a Predictor in Alzheimer’s Disease",
+        "abstract": "Research suggests that tau protein levels can be a predictor of Alzheimer’s disease severity, offering a potential biomarker for tracking disease progression over time."
+    },
+    {
+        "pmid": 34230003,
+        "language": "eng",
+        "title": "Lung Cancer Screening Techniques: A Comparative Analysis",
+        "abstract": "This paper compares various lung cancer screening methods, including low-dose CT scans, and discusses their effectiveness in early cancer detection among high-risk populations."
+    },
+    {
+        "pmid": 34230004,
+        "language": "eng",
+        "title": "Exploring the Role of Genetic Mutations in Lung Cancer",
+        "abstract": "Focusing on the role of genetic mutations in lung cancer, this study analyzes specific mutations that influence tumor growth and resistance to chemotherapy, paving the way for new therapeutic targets."
+    },
+    {
+        "pmid": 34210004,
+        "language": "eng",
+        "title": "Exploring Insulin Sensitivity Variability in Type 2 Diabetes",
+        "abstract": "This study analyzes variability in insulin sensitivity among Type 2 diabetes patients, identifying genetic factors that contribute to different responses to treatment."
+    },
+    {
+        "pmid": 34210005,
+        "language": "eng",
+        "title": "The Role of Exercise in Managing Diabetes",
+        "abstract": "Research demonstrates how regular physical activity improves glycemic control in Type 2 diabetes patients by enhancing insulin sensitivity and reducing adiposity."
+    },
+    {
+        "pmid": 34210006,
+        "language": "eng",
+        "title": "Evaluating Dietary Interventions in Diabetes Management",
+        "abstract": "This study assesses the impact of low-carbohydrate diets on blood glucose levels in patients with Type 2 diabetes, showing significant improvements in metabolic markers."
+    },
+    {
+        "pmid": 34210007,
+        "language": "eng",
+        "title": "The Influence of Sleep Patterns on Diabetes Progression",
+        "abstract": "This research explores how disrupted sleep patterns contribute to insulin resistance and metabolic dysregulation in Type 2 diabetes patients, emphasizing the importance of sleep in disease management."
+    },
+    {
+        "pmid": 34210008,
+        "language": "eng",
+        "title": "Beta-Cell Dysfunction in the Development of Type 2 Diabetes",
+        "abstract": "The study focuses on the progressive loss of beta-cell function in the pancreas, which is a key factor in the development of Type 2 diabetes, offering new targets for therapeutic intervention."
+    },
+    {
+        "pmid": 34220004,
+        "language": "eng",
+        "title": "The Role of Neuroinflammation in Alzheimer’s Disease",
+        "abstract": "This study highlights the contribution of neuroinflammation to the progression of Alzheimer’s disease, suggesting potential anti-inflammatory treatments to slow cognitive decline."
+    },
+    {
+        "pmid": 34220005,
+        "language": "eng",
+        "title": "Early Cognitive Markers of Alzheimer’s Disease",
+        "abstract": "Research identifies early cognitive markers that precede the clinical onset of Alzheimer’s, providing a foundation for developing diagnostic tools to detect the disease earlier."
+    },
+    {
+        "pmid": 34220006,
+        "language": "eng",
+        "title": "The Impact of Vascular Health on Alzheimer’s Disease Progression",
+        "abstract": "This study examines the relationship between vascular health and Alzheimer’s disease progression, indicating that improving cardiovascular function may delay the onset of dementia."
+    },
+    {
+        "pmid": 34220007,
+        "language": "eng",
+        "title": "The Genetics of Alzheimer’s: Key Susceptibility Genes",
+        "abstract": "This research focuses on the identification of susceptibility genes, such as APOE, that contribute to the risk of developing Alzheimer’s, highlighting genetic screening as a potential early intervention."
+    },
+    {
+        "pmid": 34220008,
+        "language": "eng",
+        "title": "Cognitive Training and Its Role in Alzheimer's Management",
+        "abstract": "The study evaluates the efficacy of cognitive training programs in delaying the progression of Alzheimer’s disease, suggesting that mental exercises can preserve cognitive function longer in patients."
+    },
+    {
+        "pmid": 34230005,
+        "language": "eng",
+        "title": "Molecular Mechanisms Underlying Lung Cancer Metastasis",
+        "abstract": "This research investigates the molecular pathways that drive metastasis in lung cancer, focusing on gene mutations that enhance tumor spread to other organs."
+    },
+    {
+        "pmid": 34230006,
+        "language": "eng",
+        "title": "Impact of Smoking Cessation on Lung Cancer Outcomes",
+        "abstract": "The study explores the impact of smoking cessation on the prognosis of lung cancer patients, showing improved survival rates and reduced risk of recurrence among former smokers."
+    },
+    {
+        "pmid": 34230007,
+        "language": "eng",
+        "title": "Personalized Medicine in Non-Small Cell Lung Cancer",
+        "abstract": "This research highlights advancements in personalized medicine for non-small cell lung cancer, focusing on targeted therapies tailored to individual genetic profiles, which improve treatment outcomes."
+    },
+    {
+        "pmid": 34230008,
+        "language": "eng",
+        "title": "The Role of Immunotherapy in Lung Cancer Treatment",
+        "abstract": "This paper reviews the success of immunotherapy in treating lung cancer, particularly its ability to stimulate the immune system to attack cancer cells, offering hope for more durable responses."
+    },
+    {
+        "pmid": 34230009,
+        "language": "eng",
+        "title": "Evaluating Liquid Biopsies for Early Lung Cancer Detection",
+        "abstract": "The study explores the use of liquid biopsies as a non-invasive method for detecting lung cancer at early stages, showing promise in identifying circulating tumor DNA in blood samples."
+    },
+    {
+        "pmid": 34210009,
+        "language": "eng",
+        "title": "Long-Term Effects of Metformin in Diabetes Management",
+        "abstract": "This research reviews the long-term effects of metformin on glycemic control and cardiovascular health in Type 2 diabetes patients, reaffirming its position as a first-line therapy."
+    },
+    {
+        "pmid": 34210010,
+        "language": "eng",
+        "title": "Novel Anti-Diabetic Drugs: SGLT2 Inhibitors",
+        "abstract": "The study assesses the efficacy of SGLT2 inhibitors in improving glycemic control and reducing the risk of cardiovascular events in patients with Type 2 diabetes."
+    },
+    {
+        "pmid": 34210004,
+        "language": "eng",
+        "title": "Evaluating Insulin Resistance Mechanisms in Diabetes",
+        "abstract": "This study delves into the molecular pathways contributing to insulin resistance in Type 2 diabetes, identifying potential therapeutic targets for enhancing insulin sensitivity."
+    },
+    {
+        "pmid": 34210005,
+        "language": "eng",
+        "title": "Role of Cellular Stress in Diabetes Progression",
+        "abstract": "Research has shown that cellular stress mechanisms play a significant role in diabetes progression. This paper highlights pathways through which stress contributes to beta-cell dysfunction."
+    },
+    {
+        "pmid": 34210006,
+        "language": "eng",
+        "title": "Impact of Diet on Diabetes Management",
+        "abstract": "The study explores the impact of various dietary patterns on Type 2 diabetes management, emphasizing how specific nutrients affect glucose metabolism and insulin response."
+    },
+    {
+        "pmid": 34210007,
+        "language": "eng",
+        "title": "Analyzing Genetic Susceptibility to Diabetes",
+        "abstract": "This research investigates the genetic variants associated with increased risk of developing Type 2 diabetes, offering insights into potential genetic testing for early diagnosis."
+    },
+    {
+        "pmid": 34210008,
+        "language": "eng",
+        "title": "The Influence of Physical Activity on Diabetes Outcomes",
+        "abstract": "This study analyzes how regular physical activity can mitigate diabetes-related complications, providing evidence for exercise as an essential component of diabetes care."
+    },
+    {
+        "pmid": 34220004,
+        "language": "eng",
+        "title": "Cognitive Changes in Preclinical Alzheimer's Disease",
+        "abstract": "The research focuses on subtle cognitive changes in individuals at high risk for Alzheimer’s disease, suggesting early detection strategies for those in preclinical stages."
+    },
+    {
+        "pmid": 34220005,
+        "language": "eng",
+        "title": "Linking Vascular Health to Alzheimer's Progression",
+        "abstract": "This study examines how vascular health influences Alzheimer's progression, suggesting that cardiovascular interventions may slow cognitive decline in affected patients."
+    },
+    {
+        "pmid": 34220006,
+        "language": "eng",
+        "title": "Neuroinflammation and Alzheimer's Disease Pathology",
+        "abstract": "Research highlights the role of neuroinflammation in Alzheimer’s disease, indicating that targeting inflammatory pathways could offer new avenues for treatment."
+    },
+    {
+        "pmid": 34220007,
+        "language": "eng",
+        "title": "Blood-Brain Barrier Dysfunction in Alzheimer's Disease",
+        "abstract": "This study investigates the role of blood-brain barrier dysfunction in Alzheimer's, exploring how breakdowns contribute to disease progression and potential therapeutic targets."
+    },
+    {
+        "pmid": 34220008,
+        "language": "eng",
+        "title": "The Potential of Exercise to Reduce Alzheimer's Risk",
+        "abstract": "Research suggests that regular physical activity can reduce the risk of Alzheimer’s, potentially due to its positive effects on brain health and cognitive function."
+    },
+    {
+        "pmid": 34230005,
+        "language": "eng",
+        "title": "Lung Cancer Metastasis: Understanding Mechanisms",
+        "abstract": "This study explores the mechanisms of lung cancer metastasis, highlighting the molecular signals that facilitate tumor spread and potential points for therapeutic intervention."
+    },
+    {
+        "pmid": 34230006,
+        "language": "eng",
+        "title": "Innovations in Non-Small Cell Lung Cancer Treatment",
+        "abstract": "The paper reviews recent innovations in treating non-small cell lung cancer, including targeted therapies and their role in improving patient outcomes."
+    },
+    {
+        "pmid": 34230007,
+        "language": "eng",
+        "title": "The Role of Immunotherapy in Advanced Lung Cancer",
+        "abstract": "This research investigates the application of immunotherapy in treating advanced lung cancer, with a focus on enhancing the immune system’s response to tumor cells."
+    },
+    {
+        "pmid": 34230008,
+        "language": "eng",
+        "title": "Early Detection of Lung Cancer Through Liquid Biopsies",
+        "abstract": "The study explores the potential of liquid biopsies for early lung cancer detection, showing promise in identifying genetic mutations associated with tumor development."
+    },
+    {
+        "pmid": 34230009,
+        "language": "eng",
+        "title": "Investigating the Impact of Smoking on Lung Cancer Development",
+        "abstract": "Research examines how smoking contributes to lung cancer development, emphasizing the molecular changes induced by tobacco exposure that lead to tumor formation."
+    },
+    {
+        "pmid": 34210009,
+        "language": "eng",
+        "title": "The Role of Hormones in Diabetes Pathophysiology",
+        "abstract": "This study focuses on the influence of hormones, such as insulin and glucagon, on the development and management of diabetes, revealing new insights into disease mechanisms."
+    },
+    {
+        "pmid": 34220009,
+        "language": "eng",
+        "title": "Assessing the Role of Sleep in Alzheimer's Risk",
+        "abstract": "Exploring how sleep patterns affect Alzheimer’s disease risk, this study suggests that poor sleep quality may accelerate cognitive decline in susceptible individuals."
+    },
+    {
+        "pmid": 34230010,
+        "language": "eng",
+        "title": "Exploring EGFR Mutations in Lung Cancer",
+        "abstract": "This research explores the prevalence of EGFR mutations in lung cancer patients and how these genetic alterations influence treatment responses and prognosis."
+    },
+    {
+        "pmid": 34230011,
+        "language": "eng",
+        "title": "Metabolic Reprogramming in Lung Cancer Cells",
+        "abstract": "The study examines how lung cancer cells undergo metabolic reprogramming to support rapid growth and survival, highlighting new metabolic targets for therapy."
+    },
+    {
+        "pmid": 34210010,
+        "language": "eng",
+        "title": "Potential of Gene Therapy for Diabetes",
+        "abstract": "This paper investigates gene therapy approaches for treating diabetes, focusing on methods to enhance pancreatic function and improve glycemic control in patients."
+    },
+    {
+        "pmid": 34210011,
+        "language": "eng",
+        "title": "Exploring Pancreatic Beta-Cell Regeneration in Diabetes",
+        "abstract": "This study examines novel strategies for regenerating pancreatic beta-cells in diabetes, focusing on cellular pathways that could potentially restore insulin production."
+    },
+    {
+        "pmid": 34220010,
+        "language": "eng",
+        "title": "Role of Gut-Brain Axis in Alzheimer’s Disease Progression",
+        "abstract": "Research investigates the gut-brain axis and its impact on Alzheimer’s progression, suggesting that microbiome health may influence cognitive decline in aging populations."
+    },
+    {
+        "pmid": 34230012,
+        "language": "eng",
+        "title": "Evaluating Nanotechnology in Lung Cancer Treatment",
+        "abstract": "This paper explores how nanotechnology can enhance drug delivery systems for lung cancer, aiming to improve efficacy and reduce side effects of conventional therapies."
+    },
+    {
+        "pmid": 34210012,
+        "language": "eng",
+        "title": "Examining the Impact of High-Intensity Interval Training on Diabetes",
+        "abstract": "The study evaluates the effects of high-intensity interval training on insulin sensitivity and blood glucose control in Type 2 diabetes patients, suggesting exercise as a beneficial intervention."
+    },
+    {
+        "pmid": 34220011,
+        "language": "eng",
+        "title": "Potential of Antioxidant Therapy in Alzheimer’s Disease",
+        "abstract": "This research explores the role of antioxidants in Alzheimer’s therapy, examining how oxidative stress contributes to neuronal damage and cognitive decline."
+    }
+]
+
+
+        
