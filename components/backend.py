@@ -73,9 +73,9 @@ async def delete_book(pmid: int):
         await session.commit()
     return {"message": "Book deleted successfully"}
 
-@app.put("/books/load_from_file/{json_file}")
-async def load_books_from_file(json_file: str = "./../data/data.json"):
-    await load_books_from_json(json_file)
+@app.get("/books/load_from_file")
+async def load_books_from_file():
+    await load_books_from_json("./../data/data.json")
     return {"message": "Books loaded successfully"}
 
 
