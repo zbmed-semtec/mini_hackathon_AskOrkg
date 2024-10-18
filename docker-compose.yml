@@ -39,9 +39,50 @@ services:
       - '5432:5432'
     volumes:
       - /data/postgresql_data:/var/lib/postgresql/data
+  
+  openWebUI:
+    container_name: openwebui
+    image: ghcr.io/open-webui/open-webui:main
+    restart: always
+    ports:
+      - "3000:8080"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    volumes:
+      - open-webui-local:/app/backend/data
+
+  ollama:
+    container_name: ollama
+    build:
+      context: ./components/LLM
+      dockerfile: Dockerfile
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama-local:/root/.ollama
+    
+  tei:
+    image: ghcr.io/huggingface/text-embeddings-inference:89-1.2
+    ports:
+      - '8080:80'
+    container_name: tei_container
+    restart: on-failure
+    command:
+      - "--model-id"
+      - "sentence-transformers/paraphrase-MiniLM-L6-v2"
+    volumes:
+      - /data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [ gpu ]
 
 volumes:
   qdrant_storage:
-
-
-
+  ollama-local:
+    external: true
+  open-webui-local:
+    external: true

@@ -24,11 +24,11 @@ class QdrantVectorStore:
                 if attempt == max_retries - 1:
                     raise ConnectionError(f"Failed to connect to Qdrant after {max_retries} attempts")
 
-    def create_collection(self, collection_name: str, vector_size: int):
+    def create_collection(self, collection_name: str):
         """Create a new collection in Qdrant."""
         self.client.recreate_collection(
             collection_name=collection_name,
-            vectors_config=VectorParams(size=vector_size, distance=Distance.COSINE),
+            vectors_config=VectorParams(size=384, distance=Distance.COSINE),
         )
         print(f"Collection '{collection_name}' created successfully.")
 
