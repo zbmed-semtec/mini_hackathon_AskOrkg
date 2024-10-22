@@ -30,12 +30,6 @@ python3 -m components/backend.py
 
 ## Text Embeddings Inference installation guide
 
-Install the Python dependencies using the requirements.txt
-
-```bash
-pip install -r requirements.txt
-```
-
 Make sure you have CUDA and Docker installed locally, then run:
 
 ```bash
