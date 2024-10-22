@@ -62,10 +62,12 @@ services:
       - ollama-local:/root/.ollama
     
   tei:
-    image: ghcr.io/huggingface/text-embeddings-inference:89-1.2
+    image: ghcr.io/huggingface/text-embeddings-inference:cuda-sha-cb1e594
+    
     ports:
-      - '8080:80'
+      - '80:80'
     container_name: tei_container
+    hostname: tei
     restart: on-failure
     command:
       - "--model-id"
@@ -83,6 +85,6 @@ services:
 volumes:
   qdrant_storage:
   ollama-local:
-    external: true
+    # external: true
   open-webui-local:
-    external: true
+    # external: true
