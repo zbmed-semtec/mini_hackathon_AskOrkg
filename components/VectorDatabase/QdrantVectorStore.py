@@ -37,8 +37,8 @@ class QdrantVectorStore:
         self.client.upsert(
             collection_name=collection_name,
             points=models.Batch(
-                ids=[m["id"] for m in metadata],
-                vectors=embeddings.tolist(),
+                ids=[m["pmid"] for m in metadata],
+                vectors=embeddings,
                 payloads=metadata
             )
         )
