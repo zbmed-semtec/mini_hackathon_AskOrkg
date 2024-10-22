@@ -1,13 +1,11 @@
 version: '3'
 services:
-
   qdrant:
     image: qdrant/qdrant
     ports:
       - "6333:6333"
     volumes:
       - qdrant_storage:/qdrant/storage
-
   python-app:
     container_name: python-app
     build:
@@ -27,7 +25,6 @@ services:
     # command: "uvicorn backend:app --reload --host 0.0.0.0 --port 8000"
     ports:
       - '8000:8000'
-
   postgres:
     image: postgres:14.1-alpine
     container_name: postgres
@@ -50,7 +47,6 @@ services:
       - "host.docker.internal:host-gateway"
     volumes:
       - open-webui-local:/app/backend/data
-
   ollama:
     container_name: ollama
     build:
@@ -61,14 +57,39 @@ services:
     volumes:
       - ollama-local:/root/.ollama
     
-  tei:
-    image: ghcr.io/huggingface/text-embeddings-inference:cuda-sha-cb1e594
+  # tei:
+  #   # build:
+  #   #   context: .
+  #   #   args: 
+  #   #     - CUDA_COMPUTE_CAP=70
+  #   image: ghcr.io/huggingface/text-embeddings-inference:cuda-sha-cb1e594
     
+  #   ports:
+  #     - '80:80'
+  #   container_name: tei_container
+  #   hostname: tei
+  #   restart: on-failure
+  #   command:
+  #     - "--model-id"
+  #     - "sentence-transformers/paraphrase-MiniLM-L6-v2"
+  #   volumes:
+  #     - /data
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - driver: nvidia
+  #             count: 1
+  #             capabilities: [ gpu ]
+  tei:
+    # build:
+    #   context: .
+    #   args: 
+    #     - CUDA_COMPUTE_CAP=70
+    image: ghcr.io/huggingface/text-embeddings-inference:cpu-1.5
     ports:
-      - '80:80'
+      - '8080:80'
     container_name: tei_container
-    hostname: tei
-    restart: on-failure
     command:
       - "--model-id"
       - "sentence-transformers/paraphrase-MiniLM-L6-v2"
@@ -81,7 +102,6 @@ services:
             - driver: nvidia
               count: 1
               capabilities: [ gpu ]
-
 volumes:
   qdrant_storage:
   ollama-local:
