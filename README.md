@@ -47,3 +47,5 @@ volume=$PWD/data
 
 sudo docker run -p 8080:80 -v $volume:/data --pull always ghcr.io/huggingface/text-embeddings-inference:1.5 --model-id $model
 ```
+
+

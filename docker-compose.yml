@@ -60,7 +60,7 @@ services:
       - "11434:11434"
     volumes:
       - ollama-local:/root/.ollama
-    
+
   tei:
     image: ghcr.io/huggingface/text-embeddings-inference:cuda-sha-cb1e594
     
@@ -85,6 +85,4 @@ services:
 volumes:
   qdrant_storage:
   ollama-local:
-    # external: true
   open-webui-local:
-    # external: true

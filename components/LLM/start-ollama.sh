@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # # Serve OLLaMA
-# /bin/ollama serve &
+/bin/ollama serve &
 
 # # Sleep a bit to make sure it started
-# sleep 5
+sleep 10
 
 # Pull model
 /bin/ollama pull mistral-small

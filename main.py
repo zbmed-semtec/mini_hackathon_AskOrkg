@@ -50,13 +50,18 @@ def main():
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
+    abstracts = []
     for result in results:
-        id = result.id
-        print(id)
-        print(result.payload, type(result.payload))
-
-    input_text = ""
+        print(result.payload.keys())
+        print(result.payload["pmid"], result.payload["abstract"])
+        abstracts.append(result.payload["abstract"])
+        
+    input_text = ''.join(abstracts)
+    print(input_text)
     prompt = f"Summarize the following text:\n\n{input_text}\n\nSummary:"
+    
+    llm = OllamaLLM("mistral-small")
+    llm.generate_response(prompt)
 
 if __name__ == "__main__":
     main()
