@@ -2,6 +2,7 @@ import numpy as np
 import json
 from components.VectorDatabase.QdrantVectorStore import QdrantVectorStore
 from components.EmbeddingCreation.tei import textEmbeddingsInterference
+from components.LLM.ollama import OllamaLLM
 
 def main():
     # Initialize the QdrantVectorStore
@@ -48,6 +49,14 @@ def main():
 
     except Exception as e:
         print(f"An error occurred: {str(e)}")
+
+    for result in results:
+        id = result.id
+        print(id)
+        print(result.payload, type(result.payload))
+
+    input_text = ""
+    prompt = f"Summarize the following text:\n\n{input_text}\n\nSummary:"
 
 if __name__ == "__main__":
     main()
